@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+            <div class="menu_contnet">
+                <div class="sity_contnet">
+                    <img src="img/mouse-pointer-2.svg">
+                <h1>Ваш город: 
+                    <select id="citySelect" class="citySelect">
+                        <option value="moscow">Москва</option>
+                        <option value="saint-petersburg">Санкт-Петербург</option>
+                        <option value="novosibirsk">Новосибирск</option>
+                        <option value="ekaterinburg">Екатеринбург</option>
+                    </select>
+                </h1>
+                </div>
+    
+                <div class="menu_content">
+                    <ul>
+                        <li><a href="">Бонусы</a></li>
+                        <li><a href="">Документация</a></li>
+                        <li><a href="">О нас</a></li>
+                    </ul>
+    
+                    <div class="phone_call">
+                        <img src="img/phone-call.svg" alt="">
+                        <a href="tel:79371367766">7 (937) 136 - 77 - 66</a>
+                    </div>
+                </div>
+             </div>
+    
+             <div class="menu_top">
+                <div class="logo">
+                    <a href=""><img src="img/logo.svg"></a>
+                </div>
+
+                <div class="menu_top_content">
+                    <div class="catalog_btn">
+                        <button><img src="img/catalog_menu.svg" alt="">Каталог</button>
+                    </div>
+                    <div class="search_contents">
+                        <form action="" method="post" class="search" id="search">
+                            <input type="text" placeholder="Найти парфюм.." name="g">
+                            <button type="submit"><img src="img/search.svg" alt=""></button>
+                        </form>
+
+                        <div class="user_cont">
+                            <div class="user">
+                                <a href=""><img src="img/user-2.svg" alt=""></a>
+                            </div>
+
+                            <div class="cards">
+                                <a href=""><img src="img/solar_cart-4-outline.svg" alt=""></a>
+                            </div>
+                    </div>
+                        </div>
+                </div>
+             </div>
+        </div>
+    </header>
+
+
+    <div class="hero_content">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url('img/Rectangle\ 1.png')">
+                <div class="hero_slider">
+                    <div class="contnet_slider_hero">
+                        <h1>Оптовая продажа люксовой парфюмерии с маржой до 100% и доставкой по РФ и СНГ</h1>
+
+                        <div class="quantity">
+                            <h1>В наличии более <br> 500 ароматов</h1>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="hero_slider" style="background-image: url('img/On-The-Beache-Вy-Luis-Vuitton.png')">
+                    <div class="contnet_slider_hero">
+                        <h1>Оптовая продажа люксовой парфюмерии с маржой до 100% и доставкой по РФ и СНГ</h1>
+
+                        <div class="quantity">
+                            <h1>В наличии более <br> 500 ароматов</h1>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+
+    <div class="popular_smell_container">
+        <h1 class="title_popular_smell">Популярные ароматы</h1>
+
+        <div class="cards_wrapper">
+            <div class="cards1" data-aos="zoom-in" data-aos-offset="300">
+                <h1 class="top_title">Для неё</h1>
+
+                <div class="content_cards">
+                    <h1 class="name">Victoria Secret Bombshell</h1>
+
+                    <div class="btn_cards">
+                        <a href="">В корзину</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cards2" data-aos="zoom-in" data-aos-offset="300">
+                <h1 class="top_title">Для него</h1>
+
+                <div class="content_cards">
+                    <h1 class="name">Aventus By Creed</h1>
+
+                    <div class="btn_cards">
+                        <a href="">В корзину</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards3" data-aos="zoom-in-up" data-aos-offset="300">
+                <h1 class="top_title">Унисекс</h1>
+
+                <div class="content_cards">
+                    <h1 class="name">Narcotiqe</h1>
+
+                    <div class="btn_cards">
+                        <a href="">В корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cashback_contnent">
+        <div class="title_cont">
+            <h1 class="title_popular_smell">Бонусы от покупок</h1>
+        </div>
+
+
+        <div class="banners_contnent">
+              <div class="banners_cont">
+                <h1 data-aos="fade-right">Получайте кэшбэк за покупки</h1>
+                <p>Бонусные баллы за регистрацию и покупки</p>
+
+                <div class="btn_banners">
+                    <a href="">Узнать подробнее</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <div class="catalog_content">
+        <div class="title_cont">
+            <h1 class="title_popular_smell">Каталог</h1>
+        </div>
+
+        <div class="cards_catalog_wrapper" data-aos="zoom-in" data-aos-offset="300">
+             <div class="card_catalog">
+                  <img src="img/parfume.jpg">
+
+                  <div class="title_name_parfume">
+                    <h1>The devil is a loser by Mushfig</h1>
+                  </div>
+
+
+                  <div class="volume_content">
+                      <h1>Объем мл.</h1>
+
+                      <div class="btn_volume_wrapper">
+                           <button class="btn_volume_wrapper_active">10</button>
+                           <button class="btn_volume">30</button>
+                           <button class="btn_volume">50</button>
+                           <button class="btn_volume">100</button>
+                      </div>
+
+                      <div class="price_content">
+                        <div class="price">
+                            <h2>Стоимость:</h2>
+                        </div>
+                        <p class="rate">2 400,00 ₽</p>
+                      </div>
+
+                      <div class="cards_btn">
+                        <a href="">в корзину</a>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="card_catalog">
+                <img src="img/parfume.jpg">
+
+                <div class="title_name_parfume">
+                  <h1>The devil is a loser by Mushfig</h1>
+                </div>
+
+
+                <div class="volume_content">
+                    <h1>Объем мл.</h1>
+
+                    <div class="btn_volume_wrapper">
+                         <button class="btn_volume_wrapper_active">10</button>
+                         <button class="btn_volume">30</button>
+                         <button class="btn_volume">50</button>
+                         <button class="btn_volume">100</button>
+                    </div>
+
+                    <div class="price_content">
+                      <div class="price">
+                          <h2>Стоимость:</h2>
+                      </div>
+                      <p class="rate">2 400,00 ₽</p>
+                    </div>
+
+                    <div class="cards_btn">
+                      <a href="">в корзину</a>
+                  </div>
+                </div>
+           </div>
+
+           <div class="card_catalog">
+            <img src="img/parfume.jpg">
+
+            <div class="title_name_parfume">
+              <h1>The devil is a loser by Mushfig</h1>
+            </div>
+
+
+            <div class="volume_content">
+                <h1>Объем мл.</h1>
+
+                <div class="btn_volume_wrapper">
+                     <button class="btn_volume_wrapper_active">10</button>
+                     <button class="btn_volume">30</button>
+                     <button class="btn_volume">50</button>
+                     <button class="btn_volume">100</button>
+                </div>
+
+                <div class="price_content">
+                  <div class="price">
+                      <h2>Стоимость:</h2>
+                  </div>
+                  <p class="rate">2 400,00 ₽</p>
+                </div>
+
+                <div class="cards_btn">
+                  <a href="">в корзину</a>
+              </div>
+            </div>
+       </div>
+
+        <div class="card_catalog">
+                  <img src="img/parfume.jpg">
+
+                  <div class="title_name_parfume">
+                    <h1>The devil is a loser by Mushfig</h1>
+                  </div>
+
+
+                  <div class="volume_content">
+                      <h1>Объем мл.</h1>
+
+                      <div class="btn_volume_wrapper">
+                           <button class="btn_volume_wrapper_active">10</button>
+                           <button class="btn_volume">30</button>
+                           <button class="btn_volume">50</button>
+                           <button class="btn_volume">100</button>
+                      </div>
+
+                      <div class="price_content">
+                        <div class="price">
+                            <h2>Стоимость:</h2>
+                        </div>
+                        <p class="rate">2 400,00 ₽</p>
+                      </div>
+
+                      <div class="cards_btn">
+                        <a href="">в корзину</a>
+                    </div>
+                  </div>
+        </div>
+
+        <div class="card_catalog">
+            <img src="img/parfume.jpg">
+
+            <div class="title_name_parfume">
+              <h1>The devil is a loser by Mushfig</h1>
+            </div>
+
+
+            <div class="volume_content">
+                <h1>Объем мл.</h1>
+
+                <div class="btn_volume_wrapper">
+                     <button class="btn_volume_wrapper_active">10</button>
+                     <button class="btn_volume">30</button>
+                     <button class="btn_volume">50</button>
+                     <button class="btn_volume">100</button>
+                </div>
+
+                <div class="price_content">
+                  <div class="price">
+                      <h2>Стоимость:</h2>
+                  </div>
+                  <p class="rate">2 400,00 ₽</p>
+                </div>
+
+                <div class="cards_btn">
+                  <a href="">в корзину</a>
+              </div>
+            </div>
+  </div>
+
+      <div class="card_catalog">
+        <img src="img/parfume.jpg">
+
+        <div class="title_name_parfume">
+          <h1>The devil is a loser by Mushfig</h1>
+        </div>
+
+
+        <div class="volume_content">
+            <h1>Объем мл.</h1>
+
+            <div class="btn_volume_wrapper">
+                <button class="btn_volume_wrapper_active">10</button>
+                <button class="btn_volume">30</button>
+                <button class="btn_volume">50</button>
+                <button class="btn_volume">100</button>
+            </div>
+
+            <div class="price_content">
+              <div class="price">
+                  <h2>Стоимость:</h2>
+              </div>
+              <p class="rate">2 400,00 ₽</p>
+            </div>
+
+            <div class="cards_btn">
+              <a href="">в корзину</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="card_catalog">
+        <img src="img/parfume.jpg">
+
+        <div class="title_name_parfume">
+          <h1>The devil is a loser by Mushfig</h1>
+        </div>
+
+
+        <div class="volume_content">
+            <h1>Объем мл.</h1>
+
+            <div class="btn_volume_wrapper">
+                <button class="btn_volume_wrapper_active">10</button>
+                <button class="btn_volume">30</button>
+                <button class="btn_volume">50</button>
+                <button class="btn_volume">100</button>
+            </div>
+
+            <div class="price_content">
+              <div class="price">
+                  <h2>Стоимость:</h2>
+              </div>
+              <p class="rate">2 400,00 ₽</p>
+            </div>
+
+            <div class="cards_btn">
+              <a href="">в корзину</a>
+          </div>
+        </div>
+    </div>
+    <div class="card_catalog">
+        <img src="img/parfume.jpg">
+
+        <div class="title_name_parfume">
+          <h1>The devil is a loser by Mushfig</h1>
+        </div>
+
+
+        <div class="volume_content">
+            <h1>Объем мл.</h1>
+
+            <div class="btn_volume_wrapper">
+                <button class="btn_volume_wrapper_active">10</button>
+                <button class="btn_volume">30</button>
+                <button class="btn_volume">50</button>
+                <button class="btn_volume">100</button>
+            </div>
+
+            <div class="price_content">
+              <div class="price">
+                  <h2>Стоимость:</h2>
+              </div>
+              <p class="rate">2 400,00 ₽</p>
+            </div>
+
+            <div class="cards_btn">
+              <a href="">в корзину</a>
+          </div>
+        </div>
+    </div>
+        </div>
+
+
+        <div id="app" class="container">  
+          <ul class="page">
+              <li class="page__btn"><span class="material-icons"><img src="img/Vector.svg" alt=""></span></li>
+              <li class="page__numbers active">1</li>
+              <li class="page__numbers">2</li>
+              <li class="page__numbers">3</li>
+              <li class="page__numbers">4</li>
+              <li class="page__numbers">5</li>
+              <li class="page__numbers">6</li>
+              <li class="page__dots">...</li>
+              <li class="page__numbers"> 10</li>
+              <li class="page__btn page__btn_active"><span class="material-icons"><img src="img/Vector (1).svg" alt=""></span></li>
+            </ul>
+          </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container_footer">
+        <div class="logo_footer">
+          <a href=""><img src="img/logo.svg" alt=""></a>
+       </div>
+
+       <div class="footer_content">
+        <div class="address_content">
+          <div class="address">
+            <img src="img/address.svg">
+            <p>г. Астрахань: ул. Свердлова, 106;ул. Победы 55А, пав. 10.</p>
+          </div>
+
+          <div class="phone">
+            <img src="img/phone.svg">
+            <p>Ежедневно с 9:00 до 18:00</p>
+          </div>
+        </div>
+
+        <div class="social_content" id="a">
+          <div class="socialmedia_cont">
+            <img src="img/Whatsapp.svg">
+            <a href="">Мы в Whatsapp</a>
+          </div>
+
+          <div class="socialmedia_cont" id="b">
+            <img src="img/telegram.svg">
+            <a href="">Мы в Telegram</a>
+          </div>
+
+          <div class="socialmedia_cont mail">
+            <img src="img/mail.svg">
+            <a href="mailto:parfumpomotivam@gmail.com">parfumpomotivam@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="inn_content">
+          <div class="inn_cont">
+            <img src="img/inn.svg" alt="">
+            <p>ИП РАГИМОВА А.М.К. ИНН 510704693888</p>
+          </div>
+        </div>
+       </div>
+
+       <div class="copyright">
+        <p>© Parfumpomotivam 2023</p>
+       </div>
+
+       <div class="politic">
+        <a href="">Политика конфиденциальности</a>
+      </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          autoplay: {
+                delay: 3000,
+            },
+        });
+
+        AOS.init();
+
+
+        // Получаем элементы страницы
+var citySelect = document.getElementById("citySelect");
+ 
+// Добавляем обработчик события при выборе опции
+citySelect.addEventListener("change", function() {
+  // Получаем выбранную опцию
+  var selectedCity = citySelect.options[citySelect.selectedIndex].value;
+  // Выполнение необходимых действий по завершении выбора
+  console.log("Выбран город: " + selectedCity);
+});
+      </script>
+</body>
+</html>
